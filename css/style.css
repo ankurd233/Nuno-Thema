@@ -157,8 +157,15 @@ line-height: 2!important;
     height: 100vh;
     background-size: 100% 100%;
     background-attachment: fixed;
-    
-    
+    position:relative;
+    z-index:1;
+}
+
+.parallax-img-2:after{
+    position:absolute;
+    inset:0;
+    background-color:#0004;
+    z-index:-1;
 }
 
 .bg-color{
