@@ -163,6 +163,7 @@ line-height: 2!important;
 
 .parallax-img-2:after{
     position:absolute;
+    content:"";
     inset:0;
     background-color:#0004;
     z-index:-1;
